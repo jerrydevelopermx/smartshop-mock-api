@@ -3,9 +3,10 @@ const pages = [
     id: 0,
     name: "Website Page",
     logo: "bevariante1.png",
-    coverImage: "",
+    coverimage: "",
     description: "This is the website home page",
-    blogLink: "/blog",
+    bloglink: "/blog",
+    //Delete ----------
     headerMenu: [
       { type: "link", label: "Home", url: "/#home-scroll", action: "home" },
       {
@@ -29,10 +30,11 @@ const pages = [
       { type: "link", label: "Blog", url: "", action: "" },
       { type: "link", label: "Login", url: "", action: "login" },
     ],
+    //-----------------
     styles: {
       body: {
         background: "rgb(255,255,255)",
-        fontFamily: "Verdana",
+        fontfamily: "Verdana",
       },
       header: {
         topBar: { background: "rgb(4, 60, 148)" },
@@ -41,6 +43,7 @@ const pages = [
         },
         headerMenu: {
           color: "rgb(255,255,255)",
+          a,
         },
         styledMenu: {
           paper: {
@@ -220,12 +223,12 @@ const pages = [
   },
   {
     id: 1,
-    categoryId: "cat1",
+    categoryid: "cat1",
     name: "Bags Store",
     logo: "bevariante2.png",
-    coverImage: "bag-store.jpg",
+    coverimage: "bag-store.jpg",
     description: "This is store website",
-    blogLink: "http://espndeportes.com",
+    bloglink: "http://espndeportes.com",
     headerMenu: [
       { type: "link", label: "Home", url: "/store/1/#home-scroll" },
       {
@@ -252,7 +255,7 @@ const pages = [
     styles: {
       body: {
         background: "rgb(255,255,255)",
-        fontFamily: "Verdana",
+        fontfamily: "Courier, 'Lucida Console', monospace",
         color: "rgb(0,0,0)",
       },
       header: {
@@ -502,12 +505,12 @@ const pages = [
   },
   {
     id: 2,
-    categoryId: "cat1",
+    categoryid: "cat1",
     name: "Glasses Store",
     logo: "bevariante3.png",
-    coverImage: "glasses-store.jpg",
+    coverimage: "glasses-store.jpg",
     description: "This is store website",
-    blogLink: "",
+    bloglink: "",
     headerMenu: [
       { type: "link", label: "Home", url: "/store/2/#home-scroll" },
       {
@@ -534,7 +537,7 @@ const pages = [
     styles: {
       body: {
         background: "rgb(255,255,255)",
-        fontFamily: "Verdana",
+        fontfamily: "Garamond, serif",
       },
       header: {
         topBar: { background: "rgb(96, 124, 60)" },
@@ -767,12 +770,12 @@ const pages = [
   },
   {
     id: 3,
-    categoryId: "cat2",
+    categoryid: "cat2",
     name: "Sports Store",
     logo: "mardi6blanco1.png",
-    coverImage: "sports-store.jpg",
+    coverimage: "sports-store.jpg",
     description: "This is store website",
-    blogLink: "/store/3/blog",
+    bloglink: "/store/3/blog",
     headerMenu: [
       { type: "link", label: "Home", url: "/store/3/#home-scroll" },
       {
@@ -799,7 +802,7 @@ const pages = [
     styles: {
       body: {
         background: "#FFC0CB",
-        fontFamily: "Verdana",
+        fontfamily: "Brush Script MT, cursive",
       },
       header: {
         topBar: { background: "#000" },
@@ -2194,41 +2197,41 @@ const products = [
   {
     id: 1,
     storeId: 0,
-    categoryId: "cat1",
+    categoryid: "cat1",
     type: "store",
     name: "Bags Store",
-    coverImage: "stores/bag-store.jpg",
-    hoverImage: "pbags.png",
+    coverimage: "stores/bag-store.jpg",
+    hoverimage: "pbags.png",
   },
   {
     id: 2,
     storeId: 0,
-    categoryId: "cat1",
+    categoryid: "cat1",
     type: "store",
     name: "Glasses Store",
-    coverImage: "stores/glasses-store.jpg",
-    hoverImage: "express-optical.png",
+    coverimage: "stores/glasses-store.jpg",
+    hoverimage: "express-optical.png",
   },
   {
     id: 3,
     storeId: 0,
-    categoryId: "cat2",
+    categoryid: "cat2",
     type: "store",
     name: "Sports Store",
-    coverImage: "stores/sports-store.jpg",
-    hoverImage: "sports-dace.jpg",
+    coverimage: "stores/sports-store.jpg",
+    hoverimage: "sports-dace.jpg",
   },
   {
     id: 4,
     storeId: 1,
     type: "product",
-    categoryId: "cat7",
+    categoryid: "cat7",
     color: "Beige",
     size: "Small",
     style: "ST1898",
     material: "Synthetic",
     name: "Bag 1",
-    coverImage: "bag1.jpg",
+    coverimage: "bag1.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
     price: "90",
@@ -2257,13 +2260,13 @@ const products = [
     id: 5,
     storeId: 1,
     type: "product",
-    categoryId: "cat7",
+    categoryid: "cat7",
     color: "Red",
     size: "Medium",
     style: "ST1898",
     material: "Synthetic",
     name: "Bag 2",
-    coverImage: "bag2.jpg",
+    coverimage: "bag2.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
     price: "90",
@@ -2283,13 +2286,13 @@ const products = [
     id: 6,
     storeId: 1,
     type: "product",
-    categoryId: "cat7",
+    categoryid: "cat7",
     color: "Yellow",
     size: "Medium",
     style: "ST1898",
     material: "Synthetic",
     name: "Bag 3",
-    coverImage: "bag3.jpg",
+    coverimage: "bag3.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
     price: "90",
@@ -2309,13 +2312,13 @@ const products = [
     id: 7,
     storeId: 1,
     type: "product",
-    categoryId: "cat7",
+    categoryid: "cat7",
     color: "Black",
     size: "Medium",
     style: "ST1898",
     material: "Synthetic",
     name: "Bag 4",
-    coverImage: "bag4.jpg",
+    coverimage: "bag4.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
     price: "90",
@@ -2335,13 +2338,13 @@ const products = [
     id: 8,
     storeId: 1,
     type: "product",
-    categoryId: "cat8",
+    categoryid: "cat8",
     color: "Beige",
     size: "Medium",
     style: "ST1898",
     material: "Synthetic",
     name: "Bag 5",
-    coverImage: "bag5.jpg",
+    coverimage: "bag5.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
     price: "90",
@@ -2361,13 +2364,13 @@ const products = [
     id: 9,
     storeId: 1,
     type: "product",
-    categoryId: "cat8",
+    categoryid: "cat8",
     color: "Blue",
     size: "Medium",
     style: "ST1898",
     material: "Synthetic",
     name: "Bag 6",
-    coverImage: "bag6.jpg",
+    coverimage: "bag6.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
     price: "90",
@@ -2385,7 +2388,7 @@ const products = [
   },
   {
     id: 10,
-    categoryId: "cat8",
+    categoryid: "cat8",
     storeId: 1,
 
     type: "product",
@@ -2394,7 +2397,7 @@ const products = [
     style: "ST1898",
     material: "Synthetic",
     name: "Bag 7",
-    coverImage: "bag7.jpg",
+    coverimage: "bag7.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
     price: "90",
@@ -2412,7 +2415,7 @@ const products = [
   },
   {
     id: 11,
-    categoryId: "cat8",
+    categoryid: "cat8",
     storeId: 1,
     type: "product",
     color: "Pink",
@@ -2420,7 +2423,7 @@ const products = [
     style: "ST1898",
     material: "Synthetic",
     name: "Bag 8",
-    coverImage: "bag8.png",
+    coverimage: "bag8.png",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
     price: "90",
@@ -2440,9 +2443,9 @@ const products = [
     id: 12,
     storeId: 2,
     type: "product",
-    categoryId: "cat8",
+    categoryid: "cat8",
     name: "Product 1",
-    coverImage: "puma1.jpg",
+    coverimage: "puma1.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
     price: "90",
@@ -2460,11 +2463,11 @@ const products = [
   },
   {
     id: 13,
-    categoryId: "cat8",
+    categoryid: "cat8",
     storeId: 3,
     type: "product",
     name: "Product 1",
-    coverImage: "puma1.jpg",
+    coverimage: "puma1.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c",
     price: "90",
@@ -2482,7 +2485,7 @@ const products = [
     storeId: 3,
     type: "product",
     name: "Product 2",
-    coverImage: "puma22.jpg",
+    coverimage: "puma22.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c",
     price: "90",
@@ -2500,7 +2503,7 @@ const products = [
     storeId: 3,
     type: "product",
     name: "Product 3",
-    coverImage: "puma23.jpg",
+    coverimage: "puma23.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c",
     price: "90",
@@ -2518,7 +2521,7 @@ const products = [
     storeId: 3,
     type: "product",
     name: "Product 4",
-    coverImage: "puma24.jpg",
+    coverimage: "puma24.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c",
     price: "90",
@@ -2536,7 +2539,7 @@ const products = [
     storeId: 3,
     type: "product",
     name: "Product 5",
-    coverImage: "puma25.jpg",
+    coverimage: "puma25.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c",
     price: "90",
@@ -2554,7 +2557,7 @@ const products = [
     storeId: 3,
     type: "product",
     name: "Product 6",
-    coverImage: "puma26.jpg",
+    coverimage: "puma26.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c",
     price: "90",
@@ -2572,7 +2575,7 @@ const products = [
     storeId: 3,
     type: "product",
     name: "Product 7",
-    coverImage: "puma27.jpg",
+    coverimage: "puma27.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c",
     price: "90",
@@ -2590,7 +2593,7 @@ const products = [
     storeId: 3,
     type: "product",
     name: "Product 8",
-    coverImage: "puma28.jpg",
+    coverimage: "puma28.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c",
     price: "90",
@@ -2608,7 +2611,7 @@ const products = [
     storeId: 3,
     type: "product",
     name: "Product 9",
-    coverImage: "puma29.jpg",
+    coverimage: "puma29.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c",
     price: "90",
@@ -2626,7 +2629,7 @@ const products = [
     storeId: 3,
     type: "product",
     name: "Product 10",
-    coverImage: "puma31.jpg",
+    coverimage: "puma31.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c",
     price: "90",
@@ -2644,7 +2647,7 @@ const products = [
     storeId: 3,
     type: "product",
     name: "Product 11",
-    coverImage: "puma32.jpg",
+    coverimage: "puma32.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c",
     price: "90",
@@ -2662,7 +2665,7 @@ const products = [
     storeId: 3,
     type: "product",
     name: "Product 12",
-    coverImage: "puma33.jpg",
+    coverimage: "puma33.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse c",
     price: "90",
