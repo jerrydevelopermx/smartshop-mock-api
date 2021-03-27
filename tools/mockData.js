@@ -6,97 +6,39 @@ const pages = [
     coverimage: "",
     description: "This is the website home page",
     bloglink: "/blog",
-    //Delete ----------
-    headerMenu: [
-      { type: "link", label: "Home", url: "/#home-scroll", action: "home" },
-      {
-        type: "submenu",
-        id: "submenuStore0",
-        label: "Our Services",
-        url: "/",
-        items: [
-          { text: "Our Mission", action: "mission" },
-          { text: "Who We Are", action: "who" },
-          { text: "Our Board & Staff", action: "board" },
-          { text: "Site's Features", action: "features" },
-          { text: "Site's Membership", action: "membership" },
-          { text: "Events", action: "events" },
-          { text: "Tour the Site", action: "tour" },
-        ],
-      },
-      { type: "link", label: "Contact Us", url: "", action: "contact" },
-      { type: "logo" },
-      { type: "link", label: "Events", url: "/#events-scroll" },
-      { type: "link", label: "Blog", url: "", action: "" },
-      { type: "link", label: "Login", url: "", action: "login" },
-    ],
-    //-----------------
     styles: {
       body: {
         background: "rgb(255,255,255)",
         fontfamily: "Verdana",
       },
       header: {
-        topBar: { background: "rgb(4, 60, 148)" },
-        headerActive: {
+        topbar: { background: "rgb(4, 60, 148)" },
+        headermenu: {
           color: "rgb(255,255,255)",
         },
-        headerMenu: {
-          color: "rgb(255,255,255)",
-          a,
-        },
-        styledMenu: {
-          paper: {
-            backgroundColor: "rgb(4, 60, 148)",
-            color: "rgb(255,255,255)",
-          },
-        },
-        styledMenuItem: {
-          root: {
-            hover: {
-              backgroundColor: "rgb(4, 60, 148)",
-            },
-          },
-        },
-        contentModal: {
-          contentModalsHeader: {
-            background: "rgb(4, 60, 148)",
-            color: "rgb(255,255,255)",
-          },
-          contentModalsBody: {
-            background: "rgb(255,255,255)",
-          },
-          closeButton: {
-            root: {
-              color: "rgb(255,255,255)",
-              backgroundColor: "rgb(4, 60, 148)",
-              hover: {
-                backgroundColor: "#350909",
-              },
-            },
-          },
-        },
-        mobileNavBar: {
+        styledmenu: {
           paper: {
             background: "rgb(4, 60, 148)",
             color: "rgb(255,255,255)",
           },
-          list: {
-            width: "180px",
+        },
+        mobilenavbar: {
+          paper: {
+            background: "rgb(4, 60, 148)",
+            color: "rgb(255,255,255)",
           },
         },
       },
       footer: {
-        bottomBar: {
+        bottombar: {
           background: "rgb(4, 60, 148)",
           color: "rgb(255,255,255)",
-          fontSize: "13px",
         },
-        footerLinks: {
+        footerlinks: {
           color: "rgb(255,255,255)",
         },
       },
-      modalStyles: {
+      modalstyles: {
         header: {
           background: "rgb(4, 60, 148)",
           color: "rgb(255,255,255)",
@@ -104,31 +46,10 @@ const pages = [
         body: {
           background: "rgb(255,255,255)",
         },
-        closeButton: {
+        closebutton: {
           root: {
             color: "rgb(255,255,255)",
             backgroundColor: "rgb(4, 60, 148)",
-            hover: {
-              backgroundColor: "#350909",
-            },
-          },
-        },
-      },
-      detailsModal: {
-        detailsHeader: {
-          background: "rgb(4, 60, 148)",
-          color: "rgb(255,255,255)",
-        },
-        detailsBody: {
-          background: "rgb(255,255,255)",
-        },
-        closeButton: {
-          root: {
-            color: "rgb(255,255,255)",
-            backgroundColor: "rgb(4, 60, 148)",
-            hover: {
-              backgroundColor: "#350909",
-            },
           },
         },
       },
@@ -229,29 +150,6 @@ const pages = [
     coverimage: "bag-store.jpg",
     description: "This is store website",
     bloglink: "http://espndeportes.com",
-    headerMenu: [
-      { type: "link", label: "Home", url: "/store/1/#home-scroll" },
-      {
-        type: "submenu",
-        id: "submenuStore1",
-        label: "Our Services",
-        url: "/store/1",
-        items: [
-          { text: "Our Mission", action: "mission" },
-          { text: "Who We Are", action: "who" },
-          { text: "Our Board & Staff", action: "board" },
-          { text: "Site's Features", action: "features" },
-          { text: "Site's Membership", action: "membership" },
-          { text: "Events", action: "events" },
-          { text: "Tour the Site", action: "tour" },
-        ],
-      },
-      { type: "link", label: "Contact Us", url: "/store/1", action: "contact" },
-      { type: "logo" },
-      { type: "link", label: "Events", url: "/store/1/#events-scroll" },
-      { type: "link", label: "Blog", url: "/store/1", action: "blog" },
-      { type: "link", label: "Login", url: "", action: "login" },
-    ],
     styles: {
       body: {
         background: "rgb(255,255,255)",
@@ -259,65 +157,37 @@ const pages = [
         color: "rgb(0,0,0)",
       },
       header: {
-        topBar: { background: "rgb(37, 47, 68)" },
+        topbar: { background: "rgb(37, 47, 68)" },
         headerActive: {
           color: "rgb(255,255,255)",
         },
-        headerMenu: {
+        headermenu: {
           color: "rgb(255,255,255)",
         },
-        styledMenu: {
-          paper: {
-            backgroundColor: "rgb(37, 47, 68)",
-            color: "rgb(255,255,255)",
-          },
-        },
-        styledMenuItem: {
-          root: {
-            hover: {
-              backgroundColor: "rgba(37,47,68,0.1)",
-            },
-          },
-        },
-        contentModal: {
-          contentModalsHeader: {
-            background: "#2E3B55",
-            color: "rgb(255,255,255)",
-          },
-          contentModalsBody: {
-            background: "rgb(255,255,255)",
-          },
-          closeButton: {
-            root: {
-              color: "rgb(255,255,255)",
-              backgroundColor: "#2E3B55",
-              hover: {
-                backgroundColor: "rgb(37, 47, 68)",
-              },
-            },
-          },
-        },
-        mobileNavBar: {
+        styledmenu: {
           paper: {
             background: "rgb(37, 47, 68)",
             color: "rgb(255,255,255)",
           },
-          list: {
-            width: "180px",
+        },
+        mobilenavbar: {
+          paper: {
+            background: "rgb(37, 47, 68)",
+            color: "rgb(255,255,255)",
           },
         },
       },
       footer: {
-        bottomBar: {
+        bottombar: {
           background: "rgb(37, 47, 68)",
           color: "rgb(255,255,255)",
           fontSize: "13px",
         },
-        footerLinks: {
+        footerlinks: {
           color: "rgb(255,255,255)",
         },
       },
-      modalStyles: {
+      modalstyles: {
         header: {
           background: "rgb(37, 47, 68)",
           color: "rgb(255,255,255)",
@@ -325,31 +195,10 @@ const pages = [
         body: {
           background: "rgb(255,255,255)",
         },
-        closeButton: {
+        closebutton: {
           root: {
             color: "rgb(255,255,255)",
-            backgroundColor: "#2E3B55",
-            hover: {
-              backgroundColor: "rgb(37, 47, 68)",
-            },
-          },
-        },
-      },
-      detailsModal: {
-        detailsHeader: {
-          background: "#2E3B55",
-          color: "rgb(255,255,255)",
-        },
-        detailsBody: {
-          background: "rgb(255,255,255)",
-        },
-        closeButton: {
-          root: {
-            color: "rgb(255,255,255)",
-            backgroundColor: "#2E3B55",
-            hover: {
-              backgroundColor: "rgb(37, 47, 68)",
-            },
+            background: "#2E3B55",
           },
         },
       },
@@ -511,95 +360,44 @@ const pages = [
     coverimage: "glasses-store.jpg",
     description: "This is store website",
     bloglink: "",
-    headerMenu: [
-      { type: "link", label: "Home", url: "/store/2/#home-scroll" },
-      {
-        type: "submenu",
-        id: "submenuStore1",
-        label: "Our Services",
-        url: "/store/2",
-        items: [
-          { text: "Our Mission", action: "mission" },
-          { text: "Who We Are", action: "who" },
-          { text: "Our Board & Staff", action: "board" },
-          { text: "Site's Features", action: "features" },
-          { text: "Site's Membership", action: "membership" },
-          { text: "Events", action: "events" },
-          { text: "Tour the Site", action: "tour" },
-        ],
-      },
-      { type: "link", label: "Contact Us", url: "/store/2", action: "contact" },
-      { type: "logo" },
-      { type: "link", label: "Events", url: "/store/2/#events-scroll" },
-      { type: "link", label: "Blog", url: "/store/2", action: "blog" },
-      { type: "link", label: "Login", url: "", action: "login" },
-    ],
     styles: {
       body: {
         background: "rgb(255,255,255)",
         fontfamily: "Garamond, serif",
       },
       header: {
-        topBar: { background: "rgb(96, 124, 60)" },
+        topbar: { background: "rgb(96, 124, 60)" },
 
         headerActive: {
           color: "rgb(255,255,255)",
         },
-        headerMenu: {
+        headermenu: {
           color: "rgb(255,255,255)",
         },
-        styledMenu: {
-          paper: {
-            backgroundColor: "rgb(96, 124, 60)",
-            color: "rgb(255,255,255)",
-          },
-        },
-        styledMenuItem: {
-          root: {
-            hover: {
-              backgroundColor: "#4d6330",
-            },
-          },
-        },
-        contentModal: {
-          contentModalsHeader: {
-            background: "rgb(96, 124, 60)",
-            color: "rgb(255,255,255)",
-          },
-          contentModalsBody: {
-            background: "rgb(255,255,255)",
-          },
-          closeButton: {
-            root: {
-              color: "rgb(255,255,255)",
-              backgroundColor: "rgb(96, 124, 60)",
-              hover: {
-                backgroundColor: "#4d6330",
-              },
-            },
-          },
-        },
-        mobileNavBar: {
+        styledmenu: {
           paper: {
             background: "rgb(96, 124, 60)",
             color: "rgb(255,255,255)",
           },
-          list: {
-            width: "180px",
+        },
+        mobilenavbar: {
+          paper: {
+            background: "rgb(96, 124, 60)",
+            color: "rgb(255,255,255)",
           },
         },
       },
       footer: {
-        bottomBar: {
+        bottombar: {
           background: "rgb(96, 124, 60)",
           color: "rgb(255,255,255)",
           fontSize: "13px",
         },
-        footerLinks: {
+        footerlinks: {
           color: "rgb(255,255,255)",
         },
       },
-      modalStyles: {
+      modalstyles: {
         header: {
           background: "rgb(96, 124, 60)",
           color: "rgb(255,255,255)",
@@ -607,31 +405,10 @@ const pages = [
         body: {
           background: "rgb(255,255,255)",
         },
-        closeButton: {
+        closebutton: {
           root: {
             color: "rgb(255,255,255)",
-            backgroundColor: "rgb(96, 124, 60)",
-            hover: {
-              backgroundColor: "#4d6330",
-            },
-          },
-        },
-      },
-      detailsModal: {
-        detailsHeader: {
-          background: "rgb(96, 124, 60)",
-          color: "rgb(255,255,255)",
-        },
-        detailsBody: {
-          background: "rgb(255,255,255)",
-        },
-        closeButton: {
-          root: {
-            color: "rgb(255,255,255)",
-            backgroundColor: "rgb(96, 124, 60)",
-            hover: {
-              backgroundColor: "#4d6330",
-            },
+            background: "rgb(96, 124, 60)",
           },
         },
       },
@@ -776,126 +553,53 @@ const pages = [
     coverimage: "sports-store.jpg",
     description: "This is store website",
     bloglink: "/store/3/blog",
-    headerMenu: [
-      { type: "link", label: "Home", url: "/store/3/#home-scroll" },
-      {
-        type: "submenu",
-        id: "submenuStore1",
-        label: "Our Services",
-        url: "/store/3",
-        items: [
-          { text: "Our Mission", action: "mission" },
-          { text: "Who We Are", action: "who" },
-          { text: "Our Board & Staff", action: "board" },
-          { text: "Site's Features", action: "features" },
-          { text: "Site's Membership", action: "membership" },
-          { text: "Events", action: "events" },
-          { text: "Tour the Site", action: "tour" },
-        ],
-      },
-      { type: "link", label: "Contact Us", url: "/store/3", action: "contact" },
-      { type: "logo" },
-      { type: "link", label: "Events", url: "/store/3/#events-scroll" },
-      { type: "link", label: "Blog", url: "/store/3", action: "blog" },
-      { type: "link", label: "Login", url: "", action: "login" },
-    ],
     styles: {
       body: {
         background: "#FFC0CB",
         fontfamily: "Brush Script MT, cursive",
       },
       header: {
-        topBar: { background: "#000" },
+        topbar: { background: "rgb(0,0,0)" },
         headerActive: {
           color: "rgb(255,255,255)",
         },
-        headerMenu: {
+        headermenu: {
           color: "rgb(255,255,255)",
         },
-        styledMenu: {
+        styledmenu: {
           paper: {
-            backgroundColor: "#000",
+            background: "rgb(0,0,0)",
             color: "rgb(255,255,255)",
           },
         },
-        styledMenuItem: {
-          root: {
-            hover: {
-              backgroundColor: "#18171c",
-            },
-          },
-        },
-        contentModal: {
-          contentModalsHeader: {
-            background: "#000",
-            color: "rgb(255,255,255)",
-          },
-          contentModalsBody: {
-            background: "#FFC0CB",
-          },
-          closeButton: {
-            root: {
-              color: "rgb(255,255,255)",
-              backgroundColor: "#000",
-              hover: {
-                backgroundColor: "#18171c",
-              },
-            },
-          },
-        },
-        mobileNavBar: {
+        mobilenavbar: {
           paper: {
-            background: "#000",
+            background: "rgb(0,0,0)",
             color: "rgb(255,255,255)",
-          },
-          list: {
-            width: "180px",
           },
         },
       },
       footer: {
-        bottomBar: {
+        bottombar: {
           background: "#000",
           color: "rgb(255,255,255)",
-          fontSize: "13px",
         },
-        footerLinks: {
+        footerlinks: {
           color: "rgb(255,255,255)",
         },
       },
-      modalStyles: {
+      modalstyles: {
         header: {
-          background: "#000",
+          background: "rgb(0,0,0)",
           color: "rgb(255,255,255)",
         },
         body: {
           background: "#FFC0CB",
         },
-        closeButton: {
+        closebutton: {
           root: {
             color: "rgb(255,255,255)",
-            backgroundColor: "#000",
-            hover: {
-              backgroundColor: "#18171c",
-            },
-          },
-        },
-      },
-      detailsModal: {
-        detailsHeader: {
-          background: "#000",
-          color: "rgb(255,255,255)",
-        },
-        detailsBody: {
-          background: "#FFC0CB",
-        },
-        closeButton: {
-          root: {
-            color: "rgb(255,255,255)",
-            backgroundColor: "#000",
-            hover: {
-              backgroundColor: "#18171c",
-            },
+            background: "rgb(0,0,0)",
           },
         },
       },
@@ -1013,7 +717,6 @@ const pages = [
       },
     ],
     video: {
-      autoPlay: false,
       poster: "who-we-are.jpg",
       src: "http://media.w3.org/2010/05/bunny/movie.mp4",
     },
