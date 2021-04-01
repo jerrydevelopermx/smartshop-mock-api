@@ -49,7 +49,7 @@ const pages = [
         closebutton: {
           root: {
             color: "rgb(255,255,255)",
-            backgroundColor: "rgb(4, 60, 148)",
+            background: "rgb(4, 60, 148)",
           },
         },
       },
@@ -555,8 +555,9 @@ const pages = [
     bloglink: "/store/3/blog",
     styles: {
       body: {
-        background: "#FFC0CB",
+        background: "rgb(255,192,203)",
         fontfamily: "Brush Script MT, cursive",
+        color: "rgb(0,102,204)",
       },
       header: {
         topbar: { background: "rgb(0,0,0)" },
@@ -564,7 +565,7 @@ const pages = [
           color: "rgb(255,255,255)",
         },
         headermenu: {
-          color: "rgb(255,255,255)",
+          color: "rgb(255,178,102)",
         },
         styledmenu: {
           paper: {
@@ -582,10 +583,10 @@ const pages = [
       footer: {
         bottombar: {
           background: "#000",
-          color: "rgb(255,255,255)",
+          color: "rgb(255,178,102)",
         },
         footerlinks: {
-          color: "rgb(255,255,255)",
+          color: "rgb(255,178,102)",
         },
       },
       modalstyles: {
