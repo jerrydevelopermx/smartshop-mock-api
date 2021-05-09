@@ -3,6 +3,7 @@ const pages = [
     id: 0,
     name: "Website Page",
     logo: "bevariante1.png",
+    lang: "en",
     coverimage: "",
     description: "This is the website home page",
     bloglink: "/blog",
@@ -10,6 +11,7 @@ const pages = [
       body: {
         background: "rgb(255,255,255)",
         fontfamily: "Verdana",
+        color: "rgb(0,0,0)",
       },
       header: {
         topbar: { background: "rgb(4, 60, 148)" },
@@ -45,6 +47,7 @@ const pages = [
         },
         body: {
           background: "rgb(255,255,255)",
+          color: "rgb(0,0,0)",
         },
         closebutton: {
           root: {
@@ -147,6 +150,7 @@ const pages = [
     categoryid: "cat1",
     name: "Bags Store",
     logo: "bevariante2.png",
+    lang: "en",
     coverimage: "bag-store.jpg",
     description: "This is store website",
     bloglink: "http://espndeportes.com",
@@ -194,6 +198,7 @@ const pages = [
         },
         body: {
           background: "rgb(255,255,255)",
+          color: "rgb(0,0,0)",
         },
         closebutton: {
           root: {
@@ -357,6 +362,7 @@ const pages = [
     categoryid: "cat1",
     name: "Glasses Store",
     logo: "bevariante3.png",
+    lang: "es",
     coverimage: "glasses-store.jpg",
     description: "This is store website",
     bloglink: "",
@@ -364,6 +370,7 @@ const pages = [
       body: {
         background: "rgb(255,255,255)",
         fontfamily: "Garamond, serif",
+        color: "rgb(0,0,0)",
       },
       header: {
         topbar: { background: "rgb(96, 124, 60)" },
@@ -404,6 +411,7 @@ const pages = [
         },
         body: {
           background: "rgb(255,255,255)",
+          color: "rgb(0,0,0)",
         },
         closebutton: {
           root: {
@@ -550,9 +558,10 @@ const pages = [
     categoryid: "cat2",
     name: "Sports Store",
     logo: "mardi6blanco1.png",
+    lang: "es",
     coverimage: "sports-store.jpg",
     description: "This is store website",
-    bloglink: "/store/3/blog",
+    bloglink: "/blog",
     styles: {
       body: {
         background: "rgb(255,192,203)",
@@ -570,13 +579,13 @@ const pages = [
         styledmenu: {
           paper: {
             background: "rgb(0,0,0)",
-            color: "rgb(255,255,255)",
+            color: "rgb(255,178,102)",
           },
         },
         mobilenavbar: {
           paper: {
             background: "rgb(0,0,0)",
-            color: "rgb(255,255,255)",
+            color: "rgb(255,178,102)",
           },
         },
       },
@@ -592,14 +601,15 @@ const pages = [
       modalstyles: {
         header: {
           background: "rgb(0,0,0)",
-          color: "rgb(255,255,255)",
+          color: "rgb(255,178,102)",
         },
         body: {
           background: "#FFC0CB",
+          color: "rgb(0,102,204)",
         },
         closebutton: {
           root: {
-            color: "rgb(255,255,255)",
+            color: "rgb(255,178,102)",
             background: "rgb(0,0,0)",
           },
         },
